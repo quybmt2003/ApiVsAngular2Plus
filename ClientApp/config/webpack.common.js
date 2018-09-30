@@ -20,17 +20,15 @@ module.exports = {
             loaders: [
                 {
                     loader: 'awesome-typescript-loader',
-                    options: {
-                        configFileName: helpers.root('tsconfig.json')
-                    },
+                    options: {configFileName: helpers.root('tsconfig.json')}
                 },
                 'angular2-template-loader'
             ],
-            exclude: ['/node_modules']
+            exclude: [helpers.root('../node_modules')]
         },
         {
             test: /\.js$/,
-            exclude: '/node_modules'
+            exclude: helpers.root('../node_modules')
         },
         {
             test: /\.html$/,
@@ -41,18 +39,18 @@ module.exports = {
             loader: 'file-loader?name=assets/[name].[hash].[ext]'
         },
         {
-            test: /\.css$/,
-            exclude: helpers.root('./ClientApp/src', 'app'),
-            loader: ExtractTextPlugin.extract({
-                fallbackLoader: 'style-loader',
-                loader: 'css-loader?sourceMap'
-            })
-        },
-        {
-            test: /\.css$/,
-            include: helpers.root('./ClientApp/src', 'app'),
-            loader: 'raw-helper'
-        }]
+             test: /\.css$/,
+             exclude: helpers.root('./ClientApp/src', 'app'),
+             loader: ExtractTextPlugin.extract({
+                 fallbackLoader: 'style-loader',
+                 loader: 'css-loader?sourceMap'
+             })
+         },
+         {
+             test: /\.css$/,
+             include: helpers.root('./ClientApp/src', 'app'),
+             loader: 'raw-helper'
+         }]
     },
 
     plugins: [
@@ -69,7 +67,9 @@ module.exports = {
         }),
 
         new HtmlWebpackPlugin({
-            template: './Views/Shared/_Layout.cshtml'
+            filename: helpers.root('../Views/Shared/_Layout.cshtml'),
+            template: helpers.root('../Views/Shared/_Layout.cshtml'),
+            inject: false
         })
     ]
 }

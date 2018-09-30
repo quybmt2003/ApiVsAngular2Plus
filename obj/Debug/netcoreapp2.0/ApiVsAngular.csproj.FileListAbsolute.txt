@@ -20,3 +20,4 @@ C:/Data/Study/ApiVsAngular/ApiVsAngular/ApiVsAngular/obj/Debug/netcoreapp2.0/Api
 /Users/quynguyen/Documents/Study/ApiVsAngular/ApiVsAngular/ApiVsAngular/obj/Debug/netcoreapp2.0/ApiVsAngular.AssemblyInfo.cs
 /Users/quynguyen/Documents/Study/ApiVsAngular/ApiVsAngular/ApiVsAngular/obj/Debug/netcoreapp2.0/ApiVsAngular.dll
 /Users/quynguyen/Documents/Study/ApiVsAngular/ApiVsAngular/ApiVsAngular/obj/Debug/netcoreapp2.0/ApiVsAngular.pdb
+C:\Data\Study\ApiVsAngular2Plus\obj\Debug\netcoreapp2.0\ApiVsAngular.csprojAssemblyReference.cache

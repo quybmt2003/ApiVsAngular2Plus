@@ -6,7 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="ClientApp\tsconfig.json" />
+    <Compile Remove="ClientApp\dist\**" />
+    <Content Remove="ClientApp\dist\**" />
+    <EmbeddedResource Remove="ClientApp\dist\**" />
+    <None Remove="ClientApp\dist\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -29,15 +32,10 @@
   <ItemGroup>
     <TypeScriptCompile Include="ClientApp\src\polyfill.ts" />
     <TypeScriptCompile Include="webpack.config.js" />
-    <TypeScriptCompile Include="tsconfig.json" />
     <TypeScriptCompile Include="ClientApp\src\vendor.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\app.component.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\app.module.ts" />
     <TypeScriptCompile Include="ClientApp\src\main.ts" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="ClientApp\dist\" />
   </ItemGroup>
 
 </Project>

@@ -1,17 +1,35 @@
 ﻿{
-    "compilerOptions": {
-        "target": "es6",
-        "module": "commonjs",
-        "moduleResolution": "node",
-        "sourceMap": true,
-        "emitDecoratorMetadata": true,
-        "experimentalDecorators": true,
-        "allowJs": true,
-        "lib": ["es5", "es6", "dom"],
-        "noImplicitAny": true,
-        "suppressImplicitAnyIndexErrors": true,
-        "typeRoots": [
-          "../node_modules/@types"
-        ]
-      }
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowJs": true,
+    "lib": [ "es5", "es6", "dom" ],
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "typeRoots": [
+      "../node_modules/@types"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "typings",
+    "config"
+  ],
+  "types": [
+    "core-js",
+    "jasmine",
+    "lodash",
+    "node",
+    "webpack"
+  ],
+  "awesomeTypescriptLoaderOptions": {
+    "forkChecker": true,
+    "useWebpackText": true
+  },
+  "compileOnSave": true
 }

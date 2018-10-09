@@ -11,7 +11,7 @@ module.exports = {
     },
 
     resolve: {
-        extensions: ['.ts', '.js']
+        extensions: ['.ts', '.js', '.html']
     },
 
     module: {
@@ -67,9 +67,9 @@ module.exports = {
         }),
 
         new HtmlWebpackPlugin({
+            //inject: true,
             filename: helpers.root('../Views/Shared/_Layout.cshtml'),
-            template: helpers.root('../Views/Shared/_Layout.cshtml'),
-            inject: false
+            template: helpers.root('../Views/Shared/_LayoutTemplate.cshtml'),
         })
     ]
 }

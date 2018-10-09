@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -15,7 +15,7 @@
               asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
         <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
     </environment>
-</head>
+<link href="../../wwwroot/app.css" rel="stylesheet"></head>
 <body>
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
@@ -68,5 +68,5 @@
     </environment>
 
     @RenderSection("Scripts", required: false)
-</body>
+<script type="text/javascript" src="~/polyfill.js"></script><script type="text/javascript" src="~/vendor.js"></script><script type="text/javascript" src="~/app.js"></script></body>
 </html>

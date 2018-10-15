@@ -21,3 +21,13 @@ C:/Data/Study/ApiVsAngular/ApiVsAngular/ApiVsAngular/obj/Debug/netcoreapp2.0/Api
 /Users/quynguyen/Documents/Study/ApiVsAngular/ApiVsAngular/ApiVsAngular/obj/Debug/netcoreapp2.0/ApiVsAngular.dll
 /Users/quynguyen/Documents/Study/ApiVsAngular/ApiVsAngular/ApiVsAngular/obj/Debug/netcoreapp2.0/ApiVsAngular.pdb
 C:\Data\Study\ApiVsAngular2Plus\obj\Debug\netcoreapp2.0\ApiVsAngular.csprojAssemblyReference.cache
+C:\Data\Study\ApiVsAngular2Plus\bin\Debug\netcoreapp2.0\ApiVsAngular.deps.json
+C:\Data\Study\ApiVsAngular2Plus\bin\Debug\netcoreapp2.0\ApiVsAngular.runtimeconfig.json
+C:\Data\Study\ApiVsAngular2Plus\bin\Debug\netcoreapp2.0\ApiVsAngular.runtimeconfig.dev.json
+C:\Data\Study\ApiVsAngular2Plus\bin\Debug\netcoreapp2.0\ApiVsAngular.dll
+C:\Data\Study\ApiVsAngular2Plus\bin\Debug\netcoreapp2.0\ApiVsAngular.pdb
+C:\Data\Study\ApiVsAngular2Plus\obj\Debug\netcoreapp2.0\ApiVsAngular.csproj.CoreCompileInputs.cache
+C:\Data\Study\ApiVsAngular2Plus\obj\Debug\netcoreapp2.0\ApiVsAngular.AssemblyInfoInputs.cache
+C:\Data\Study\ApiVsAngular2Plus\obj\Debug\netcoreapp2.0\ApiVsAngular.AssemblyInfo.cs
+C:\Data\Study\ApiVsAngular2Plus\obj\Debug\netcoreapp2.0\ApiVsAngular.dll
+C:\Data\Study\ApiVsAngular2Plus\obj\Debug\netcoreapp2.0\ApiVsAngular.pdb
